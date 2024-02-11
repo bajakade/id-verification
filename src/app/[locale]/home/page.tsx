@@ -8,7 +8,7 @@ import { services } from '@/constants';
 
 const HomePage = () => {
   return (
-    <div className="h-screen flex flex-col justify-center items-center bg-cover bg-center" style={{ backgroundImage: 'url("login.png")' }}>
+    <div className="h-screen flex flex-col justify-center items-center bg-cover bg-center" style={{ backgroundImage: 'url("../login.png")' }}>
         <NavBar/>
         <div className="container mx-auto flex sm:flex-column justify-center mt-20 w-3/5 space-x-32">
             <About
