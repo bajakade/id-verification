@@ -1,22 +1,34 @@
 {
-    "identity": {
-        "bvn": "Bank Verification Number",
-        "type": "BVN",
-        "status": "Verifed"
+    "Metadata": {
+        "title": "ID Verification App",
+        "description": "ID Number Verification"
     },
-    "profile": {
-        "name": "Name",
-        "phoneNumber": "Phone Number",
-        "dob": "Date of Birth",
-        "address1": "Residential Address",
-        "nationality": "Nationality",
-        "employmentStatus": "Employment Status",
-        "email": "Email",
-        "gender": "Gender",
-        "maritalStatus": "Marital Status",
-        "address2": "Permanent Address",
-        "state": "State",
-        "employer": "Employer",
-        "enrollmentBank": "Enrollment Bank"
+    "NavBar": {
+        "title": "BVN Verification",
+        "logout": "Logout"
+    },
+    "Profile": {
+        "identity": {
+            "title": "Identity Response",
+            "bvn": "Bank Verification Number",
+            "type": "Verification Type",
+            "status": "Verification Status"
+        },
+        "details": {
+            "title": "Personal Details",
+            "name": "Name",
+            "phoneNumber": "Phone Number",
+            "dob": "Date of Birth",
+            "address1": "Residential Address",
+            "nationality": "Nationality",
+            "employmentStatus": "Employment Status",
+            "email": "Email",
+            "gender": "Gender",
+            "maritalStatus": "Marital Status",
+            "address2": "Permanent Address",
+            "state": "State",
+            "employer": "Employer",
+            "enrollmentBank": "Enrollment Bank"
+        }
     }
 }

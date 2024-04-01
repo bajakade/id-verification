@@ -2,14 +2,12 @@ import "./globals.css";
 
 import { Inter } from "next/font/google";
 import type { Metadata } from "next";
-// import '../trans';
-
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "ID Verification App",
-  description: "Verify your official IDs/Numbers",
+  description: "Verify ID Number",
 };
 
 export default function RootLayout({

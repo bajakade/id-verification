@@ -13,3 +13,9 @@ export const info = {
     employer: 'FCT',
     enrollmentBank: 'UBA, Wuse 2 Branch'
 };
+
+export const id = {
+    bvn:'1234567890',
+    type: 'BVN',
+    status: 'Verified'
+}
