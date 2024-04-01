@@ -32,14 +32,14 @@ export default function About ({title, introduction, services}: {
         services: Array<any>
     }) {
     return (
-        <div className="flex-1 mr-4 pt-44">
+        <div className="flex-1 md:mr-4 pt-44 mx-1">
           {/* Welcome Message */}
           <h2 className="text-5xl font-bold text-white text-center">{title}</h2>
           {/* Description */}
           <p className="text-white text-2xl mt-2 mb-20 text-center">{introduction}</p>
           {/* Grid of Boxes */}
         
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-2 mt-6 xs:mx-auto">
            {services.map(service => (
                 <div key={service.shortName} className="bg-white bg-opacity-30 p-4 h-30 w-30 rounded-md items-center justify-center">
                     {/* Icon */}

@@ -1,10 +1,8 @@
-import { Icon } from "@/types";
+import { IService } from "@/types";
 
-export type IService = {
-    title: string;
-    shortName: string;
-    icon: Icon;
-}
+export type Locale = 'en';
+
+export const locales: Array<Locale> = ['en'];
 
 export const services: Array<IService> = [
     {
@@ -18,7 +16,7 @@ export const services: Array<IService> = [
         icon: 'user'
     },
     {
-        title: 'Passport',
+        title: 'International Passport',
         shortName: 'Passport',
         icon: 'reg'
     },
@@ -32,9 +30,9 @@ export const services: Array<IService> = [
         shortName: 'DL',
         icon: 'card'
     },
-    {
-        title: 'OLevel',
-        shortName: 'DL',
-        icon: 'cert'
-    },
+    // {
+    //     title: 'OLevel',
+    //     shortName: 'DL',
+    //     icon: 'cert'
+    // },
 ];

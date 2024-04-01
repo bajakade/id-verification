@@ -6,7 +6,7 @@ import { SubmitHandler, useForm } from "react-hook-form";
 import { AuthForm } from "@/types";
 import { FaEye } from "react-icons/fa";
 import React from "react";
-import { useRouter } from "next/navigation";
+import { useRouter } from "../../../../navigation";
 
 export default function Login() {
 
@@ -20,7 +20,7 @@ export default function Login() {
     return (
         <div className="h-screen">
             <div className="flex w-8/12 h-5/6  bg-gray-100 mx-auto my-20">
-                <div className="hidden md:block md:w-1/2 bg-cover bg-center" style={{ backgroundImage: 'url("login.png")' }}>
+                <div className="hidden md:block md:w-1/2 bg-cover bg-center" style={{ backgroundImage: 'url("../login.png")' }}>
                 </div>
 
                 <div className="w-full xl:w-1/2 flex items-center justify-center">
